@@ -1,0 +1,33 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+header {
+	background-color: c.$dark-grey;
+	align-content: center;
+	height: 80px;
+
+	.containerLogo {
+		display: flex;
+		width: fit-content;
+		margin-left: 10px;
+
+		span {
+			font-family: f.$secondary-font;
+			font-weight: 400;
+			font-size: 1.6rem;
+			margin-left: -5px;
+			margin-top: 10px;
+			color: c.$yellow-contrast;
+		}
+	}
+
+	.containerNav {
+		display: flex;
+		gap: 20px;
+	}
+
+	li {
+		font-family: f.$primary-font;
+		color: $ice-white;
+	}
+}
