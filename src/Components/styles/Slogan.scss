@@ -1,0 +1,38 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+.main-container {
+	background-color: c.$dark-grey;
+	display: grid;
+	gap: 0px;
+	min-height: 400px;
+}
+
+.container-img {
+	line-height: 0;
+	max-width: 500px;
+	max-height: 200px;
+
+	img {
+		width: 100%;
+		margin-left: 50px;
+		box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3),
+			-18px 18px 0px c.$yellow-contrast;
+	}
+}
+
+.slogan-container {
+	grid-column: 2/2;
+	justify-items: center;
+
+	h2 {
+		font-family: f.$primary-font;
+		font-size: 3rem;
+		max-width: 400px;
+		color: white;
+		.word-contrast {
+			display: inline-block;
+			color: c.$yellow-contrast;
+		}
+	}
+}

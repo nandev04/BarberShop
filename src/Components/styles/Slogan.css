@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+@font-face {
+  font-family: "Koulen";
+  src: url("../../../../assets/Koulen.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.main-container {
+  background-color: #151515;
+  display: grid;
+  gap: 0px;
+  min-height: 400px;
+}
+
+.container-img {
+  line-height: 0;
+  max-width: 500px;
+  max-height: 200px;
+}
+.container-img img {
+  width: 100%;
+  margin-left: 50px;
+  box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
+}
+
+.slogan-container {
+  grid-column: 2/2;
+  justify-items: center;
+}
+.slogan-container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  max-width: 400px;
+  color: white;
+}
+.slogan-container h2 .word-contrast {
+  display: inline-block;
+  color: #fcb041;
+}/*# sourceMappingURL=Slogan.css.map */
