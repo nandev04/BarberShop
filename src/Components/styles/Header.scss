@@ -4,15 +4,15 @@
 header {
 	display: flex;
 	justify-content: space-between;
-	background-color: c.$dark-grey;
 	align-content: center;
+	padding: 0px 40px;
+	background-color: c.$dark-grey;
 	height: 80px;
 
 	.containerLogo {
 		display: flex;
 		width: fit-content;
 		align-items: center;
-		margin-left: 15px;
 
 		span {
 			font-family: f.$secondary-font;
@@ -27,8 +27,8 @@ header {
 	.containerNav {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		gap: 45px;
-		margin-right: 25px;
 	}
 
 	li {

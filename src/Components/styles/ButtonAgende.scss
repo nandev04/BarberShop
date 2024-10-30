@@ -1,0 +1,14 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+.btn {
+	color: c.$dark-grey;
+	font-family: f.$primary-font;
+	font-size: 1.1rem;
+	font-weight: 700;
+	cursor: pointer;
+	background-color: c.$yellow-contrast;
+	border: none;
+	padding: 20px 30px;
+	border-radius: 5px;
+}

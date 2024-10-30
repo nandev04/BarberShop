@@ -5,6 +5,11 @@
 	box-sizing: border-box;
 }
 
+#root {
+	display: grid;
+	/* justify-content: center; */
+}
+
 body {
 	min-height: 700px;
 }

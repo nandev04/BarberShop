@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Slogan.css';
+import ButtonAgende from './ButtonAgende';
 
 const Slogan = () => {
 	return (
@@ -11,10 +12,14 @@ const Slogan = () => {
 				/>
 			</div>
 			<div className="slogan-container">
-				<h2>
-					Estilo que vai além do corte. <p className="word-contrast">Aqui,</p>{' '}
-					seu visual ganha <p className="word-contrast">vida!</p>
-				</h2>
+				<div>
+					<h2>
+						Estilo que vai além do corte. <p className="word-contrast">Aqui,</p>{' '}
+						seu visual ganha <p className="word-contrast">vida!</p>
+					</h2>
+
+					<ButtonAgende>AGENDE UM HORÁRIO</ButtonAgende>
+				</div>
 			</div>
 		</div>
 	);
