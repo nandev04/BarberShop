@@ -1,0 +1,58 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+@mixin phrase-style {
+	text-align: center;
+	font-family: f.$primary-font;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.container-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+	padding: 0 40px;
+	background-color: c.$light-grey;
+	min-height: 350px;
+	justify-content: center;
+	align-content: center;
+
+	.container-xp {
+		max-width: 500px;
+		justify-self: center;
+
+		p {
+			@include phrase-style();
+
+			span {
+				color: c.$yellow-contrast;
+				font-size: 5rem;
+			}
+		}
+	}
+
+	.container-sobre {
+		justify-items: start;
+		margin-left: 100px;
+		max-width: 600px;
+
+		.sobre-titulo {
+			@include phrase-style();
+			font-style: italic;
+			font-weight: 800;
+			font-size: 2rem;
+			margin-bottom: 20px;
+			span {
+				color: c.$yellow-contrast;
+			}
+		}
+
+		.descricao {
+			font-family: f.$primary-font;
+			font-size: 0.9rem;
+			color: white;
+		}
+	}
+}

@@ -1,45 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
 @font-face {
-  font-family: "Koulen";
-  src: url("../../../../assets/Koulen.ttf"), format("truetype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Koulen';
+	src: url('../../../../assets/Koulen.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .main-container {
-  min-width: 1400px;
-  background-color: #151515;
-  padding: 0 40px;
-  display: grid;
-  gap: 50px;
-  grid-template-columns: 1fr 1fr;
-  min-height: 500px;
+	min-width: 1400px;
+	background-color: #151515;
+	padding: 0 40px;
+	display: grid;
+	gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	min-height: 500px;
 }
 
 .container-img {
-  justify-self: center;
-  line-height: 0;
-  max-width: 600px;
-  max-height: 200px;
+	justify-self: center;
+	line-height: 0;
+	max-width: 600px;
+	max-height: 200px;
 }
 .container-img img {
-  width: 100%;
-  box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
+	width: 100%;
+	box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
 }
 
 .slogan-container {
-  grid-column: 2/2;
-  justify-items: center;
+	grid-column: 2/2;
+	justify-items: center;
 }
 .slogan-container h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.7rem;
-  max-width: 500px;
-  color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.7rem;
+	max-width: 500px;
+	color: white;
 }
 .slogan-container h2 .word-contrast {
-  display: inline-block;
-  color: #fcb041;
+	display: inline-block;
+	color: #fcb041;
 }
 .slogan-container button {
-  margin-top: 20px;
-}/*# sourceMappingURL=Slogan.css.map */
+	margin-top: 20px;
+} /*# sourceMappingURL=Slogan.css.map */
