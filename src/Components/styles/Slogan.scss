@@ -2,20 +2,23 @@
 @use './variables/fonts' as f;
 
 .main-container {
+	min-width: 1400px;
 	background-color: c.$dark-grey;
+	padding: 0 40px;
 	display: grid;
-	gap: 0px;
-	min-height: 400px;
+	gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	min-height: 500px;
 }
 
 .container-img {
+	justify-self: center;
 	line-height: 0;
-	max-width: 500px;
+	max-width: 600px;
 	max-height: 200px;
 
 	img {
 		width: 100%;
-		margin-left: 50px;
 		box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3),
 			-18px 18px 0px c.$yellow-contrast;
 	}
@@ -27,12 +30,16 @@
 
 	h2 {
 		font-family: f.$primary-font;
-		font-size: 3rem;
-		max-width: 400px;
+		font-size: 3.7rem;
+		max-width: 500px;
 		color: white;
 		.word-contrast {
 			display: inline-block;
 			color: c.$yellow-contrast;
 		}
+	}
+
+	button {
+		margin-top: 20px;
 	}
 }

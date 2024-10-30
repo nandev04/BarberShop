@@ -8,8 +8,9 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #151515;
   align-content: center;
+  padding: 0px 40px;
+  background-color: #151515;
   height: 80px;
 }
 header .containerLogo {
@@ -17,7 +18,6 @@ header .containerLogo {
   width: -moz-fit-content;
   width: fit-content;
   align-items: center;
-  margin-left: 15px;
 }
 header .containerLogo span {
   font-family: "Koulen", sans-serif;
@@ -30,8 +30,8 @@ header .containerLogo span {
 header .containerNav {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 45px;
-  margin-right: 25px;
 }
 header li {
   cursor: pointer;

@@ -6,20 +6,23 @@
   font-style: normal;
 }
 .main-container {
+  min-width: 1400px;
   background-color: #151515;
+  padding: 0 40px;
   display: grid;
-  gap: 0px;
-  min-height: 400px;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
 }
 
 .container-img {
+  justify-self: center;
   line-height: 0;
-  max-width: 500px;
+  max-width: 600px;
   max-height: 200px;
 }
 .container-img img {
   width: 100%;
-  margin-left: 50px;
   box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
 }
 
@@ -29,11 +32,14 @@
 }
 .slogan-container h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  max-width: 400px;
+  font-size: 3.7rem;
+  max-width: 500px;
   color: white;
 }
 .slogan-container h2 .word-contrast {
   display: inline-block;
   color: #fcb041;
+}
+.slogan-container button {
+  margin-top: 20px;
 }/*# sourceMappingURL=Slogan.css.map */
