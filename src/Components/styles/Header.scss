@@ -2,6 +2,8 @@
 @use './variables/fonts' as f;
 
 header {
+	display: flex;
+	justify-content: space-between;
 	background-color: c.$dark-grey;
 	align-content: center;
 	height: 80px;
@@ -9,12 +11,13 @@ header {
 	.containerLogo {
 		display: flex;
 		width: fit-content;
-		margin-left: 10px;
+		align-items: center;
+		margin-left: 15px;
 
 		span {
 			font-family: f.$secondary-font;
 			font-weight: 400;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			margin-left: -5px;
 			margin-top: 10px;
 			color: c.$yellow-contrast;
@@ -23,11 +26,15 @@ header {
 
 	.containerNav {
 		display: flex;
-		gap: 20px;
+		align-items: center;
+		gap: 45px;
+		margin-right: 25px;
 	}
 
 	li {
+		cursor: pointer;
 		font-family: f.$primary-font;
-		color: $ice-white;
+		color: c.$ice-white;
+		font-size: 0.9rem;
 	}
 }
