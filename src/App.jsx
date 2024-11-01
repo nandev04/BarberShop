@@ -13,7 +13,7 @@ function App() {
 	React.useEffect(() => {
 		AOS.init({
 			anchorPlacement: 'top-bottom',
-			once: true,
+			once: false,
 		});
 	}, []);
 

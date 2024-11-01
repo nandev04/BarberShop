@@ -1,13 +1,6 @@
 @use './variables/colors' as c;
 @use './variables/fonts' as f;
-
-@mixin phrase-style {
-	text-align: center;
-	font-family: f.$primary-font;
-	color: white;
-	font-size: 2.5rem;
-	font-weight: 800;
-}
+@use './variables/mixins' as m;
 
 .container-section {
 	overflow: hidden;
@@ -30,7 +23,7 @@
 		align-self: center;
 
 		p {
-			@include phrase-style;
+			@include m.phrase-style;
 
 			span {
 				color: c.$yellow-contrast;
@@ -46,7 +39,7 @@
 		padding-right: 5px;
 
 		.sobre-titulo {
-			@include phrase-style();
+			@include m.phrase-style();
 			font-style: italic;
 			font-weight: 800;
 			font-size: 2rem;

@@ -2,8 +2,9 @@ import React from 'react';
 import './styles/Info.css';
 import FrameSvc from './FrameSvc';
 import ButtonAgende from './ButtonAgende';
+import Gallery from './Gallery';
 
-const Info = () => {
+const Info = ({ aos }) => {
 	return (
 		<section className="container-info">
 			<div
@@ -45,6 +46,7 @@ const Info = () => {
 				<div className="container-btn">
 					<ButtonAgende>AGENDE UM HORÁRIO</ButtonAgende>
 				</div>
+				<Gallery aos={aos} />
 			</div>
 		</section>
 	);

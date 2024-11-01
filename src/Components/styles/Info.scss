@@ -1,13 +1,6 @@
 @use './variables/colors' as c;
 @use './variables/fonts' as f;
-
-@mixin phrase-style {
-	text-align: center;
-	font-family: f.$primary-font;
-	color: white;
-	font-size: 2.5rem;
-	font-weight: 800;
-}
+@use './variables/mixins' as m;
 
 .container-info {
 	background-color: c.$dark-grey;
@@ -16,7 +9,7 @@
 	// Titulo servicos
 	div {
 		.title-svc {
-			@include phrase-style;
+			@include m.phrase-style;
 			font-size: 1.8rem;
 			font-weight: 400;
 		}
