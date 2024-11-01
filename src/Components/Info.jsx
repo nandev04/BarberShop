@@ -3,8 +3,17 @@ import './styles/Info.css';
 import FrameSvc from './FrameSvc';
 import ButtonAgende from './ButtonAgende';
 import Gallery from './Gallery';
+import Comment from './Comment';
 
 const Info = ({ aos }) => {
+	const settings = {
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+	};
+
 	return (
 		<section className="container-info">
 			<div
@@ -47,6 +56,39 @@ const Info = ({ aos }) => {
 					<ButtonAgende>AGENDE UM HORÁRIO</ButtonAgende>
 				</div>
 				<Gallery aos={aos} />
+
+				<section className="general-comments">
+					<div>
+						<h2 className="title-avl">Avaliações</h2>
+					</div>
+
+					<div className="container-comments">
+						<Comment
+							name={'Renan A.'}
+							comment={
+								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
+							}
+						/>
+						<Comment
+							name={'Renan A.'}
+							comment={
+								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
+							}
+						/>
+						<Comment
+							name={'Renan A.'}
+							comment={
+								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
+							}
+						/>
+						<Comment
+							name={'Renan A.'}
+							comment={
+								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
+							}
+						/>
+					</div>
+				</section>
 			</div>
 		</section>
 	);

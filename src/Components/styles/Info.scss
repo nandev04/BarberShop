@@ -51,4 +51,39 @@
 			font-size: 1.3rem;
 		}
 	}
+
+	.general-comments {
+		margin-top: 120px;
+
+		.title-avl {
+			@include m.phrase-style;
+			font-size: 1.8rem;
+			font-weight: 400;
+			margin-bottom: 60px;
+		}
+
+		.title-avl::before {
+			display: inline-block;
+			margin-bottom: 7px;
+			margin-right: 40px;
+			content: '';
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.title-avl::after {
+			display: inline-block;
+			content: '';
+			margin-bottom: 7px;
+			margin-left: 40px;
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.container-comments {
+			justify-self: center;
+		}
+	}
 }

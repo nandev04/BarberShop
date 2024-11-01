@@ -48,4 +48,38 @@
 .container-info .container-btn button {
   padding: 30px 40px;
   font-size: 1.3rem;
+}
+.container-info .general-comments {
+  margin-top: 120px;
+}
+.container-info .general-comments .title-avl {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.container-info .general-comments .title-avl::before {
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 40px;
+  content: "";
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info .general-comments .title-avl::after {
+  display: inline-block;
+  content: "";
+  margin-bottom: 7px;
+  margin-left: 40px;
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info .general-comments .container-comments {
+  justify-self: center;
 }/*# sourceMappingURL=Info.css.map */
