@@ -2,13 +2,19 @@
 @use './variables/fonts' as f;
 
 .main-container {
-	min-width: 1400px;
 	background-color: c.$dark-grey;
 	padding: 0 40px;
-	display: grid;
+	width: 100%;
 	gap: 50px;
-	grid-template-columns: 1fr 1fr;
 	min-height: 500px;
+	padding-bottom: 40px;
+	overflow: hidden;
+
+	.container-animation {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 .container-img {

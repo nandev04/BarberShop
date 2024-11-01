@@ -1,0 +1,37 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+.conteiner-frame {
+	text-align: center;
+	font-family: f.$primary-font;
+	color: white;
+	background-color: c.$light-grey;
+	width: 270px;
+	border: 2px solid c.$yellow-contrast;
+	height: auto;
+	padding: 20px 35px 40px 35px;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+
+		.frame-title {
+			font-size: 1.4rem;
+			font-weight: 400;
+			font-style: italic;
+		}
+
+		img {
+			display: inline-block;
+			width: 30px;
+			margin-left: 5px;
+		}
+	}
+	.frame-description {
+		margin-top: 15px;
+		color: c.$ice-white;
+		font-size: 0.9rem;
+	}
+}

@@ -1,0 +1,61 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+@mixin phrase-style {
+	text-align: center;
+	font-family: f.$primary-font;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.container-info {
+	background-color: c.$dark-grey;
+	padding: 60px 40px;
+
+	// Titulo servicos
+	div {
+		.title-svc {
+			@include phrase-style;
+			font-size: 1.8rem;
+			font-weight: 400;
+		}
+
+		.title-svc::before {
+			display: inline-block;
+			margin-bottom: 7px;
+			margin-right: 40px;
+			content: '';
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.title-svc::after {
+			display: inline-block;
+			content: '';
+			margin-bottom: 7px;
+			margin-left: 40px;
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+	}
+
+	// Opções de serviço
+
+	.container-services {
+		display: flex;
+		justify-content: center;
+		gap: 100px;
+		margin: 60px 0;
+	}
+
+	.container-btn {
+		justify-self: center;
+		button {
+			padding: 30px 40px;
+			font-size: 1.3rem;
+		}
+	}
+}
