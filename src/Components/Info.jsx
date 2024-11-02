@@ -3,7 +3,6 @@ import './styles/Info.css';
 import FrameSvc from './FrameSvc';
 import ButtonAgende from './ButtonAgende';
 import Gallery from './Gallery';
-import Comment from './Comment';
 
 const Info = ({ aos }) => {
 	const settings = {
