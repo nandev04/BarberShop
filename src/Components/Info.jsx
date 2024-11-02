@@ -62,32 +62,7 @@ const Info = ({ aos }) => {
 						<h2 className="title-avl">Avaliações</h2>
 					</div>
 
-					<div className="container-comments">
-						<Comment
-							name={'Renan A.'}
-							comment={
-								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
-							}
-						/>
-						<Comment
-							name={'Renan A.'}
-							comment={
-								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
-							}
-						/>
-						<Comment
-							name={'Renan A.'}
-							comment={
-								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
-							}
-						/>
-						<Comment
-							name={'Renan A.'}
-							comment={
-								'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, soluta in voluptas tempore temporibus voluptatibus nemo maxime officia recusandae inventore ducimus odit, ipsam ut asperiores aliquam, est explicabo fuga.'
-							}
-						/>
-					</div>
+					<div className="container-comments"></div>
 				</section>
 			</div>
 		</section>
