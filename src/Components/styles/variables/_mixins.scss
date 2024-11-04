@@ -1,0 +1,9 @@
+@use './fonts' as f;
+
+@mixin phrase-style {
+	text-align: center;
+	font-family: f.$primary-font;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 800;
+}

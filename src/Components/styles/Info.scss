@@ -1,0 +1,92 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+@use './variables/mixins' as m;
+
+.container-info {
+	background-color: c.$dark-grey;
+	padding: 60px 40px;
+
+	// Titulo servicos
+	div {
+		.title-svc {
+			@include m.phrase-style;
+			font-size: 1.8rem;
+			font-weight: 400;
+		}
+
+		.title-svc::before {
+			display: inline-block;
+			margin-bottom: 7px;
+			margin-right: 40px;
+			content: '';
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.title-svc::after {
+			display: inline-block;
+			content: '';
+			margin-bottom: 7px;
+			margin-left: 40px;
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+	}
+
+	// Opções de serviço
+
+	.container-services {
+		display: flex;
+		justify-content: center;
+		gap: 100px;
+		margin: 60px 0;
+	}
+
+	.container-btn {
+		justify-self: center;
+		button {
+			padding: 30px 40px;
+			font-size: 1.3rem;
+		}
+	}
+
+	.general-comments {
+		margin-top: 120px;
+
+		.title-avl {
+			@include m.phrase-style;
+			font-size: 1.8rem;
+			font-weight: 400;
+			margin-bottom: 60px;
+		}
+
+		.title-avl::before {
+			display: inline-block;
+			margin-bottom: 7px;
+			margin-right: 40px;
+			content: '';
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.title-avl::after {
+			display: inline-block;
+			content: '';
+			margin-bottom: 7px;
+			margin-left: 40px;
+			height: 3px;
+			width: 400px;
+			background-color: c.$light-grey;
+		}
+
+		.container-comments {
+			display: flex;
+			width: 100%;
+			gap: 20px;
+			justify-self: center;
+		}
+	}
+}

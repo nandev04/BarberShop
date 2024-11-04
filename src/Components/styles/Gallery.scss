@@ -1,0 +1,67 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+@use './variables/mixins' as m;
+
+.container-gallery {
+	display: grid;
+	justify-items: center;
+	margin-top: 120px;
+
+	.title-glr {
+		@include m.phrase-style;
+
+		font-size: 1.8rem;
+		font-weight: 400;
+		margin-bottom: 60px;
+	}
+
+	.title-glr::before {
+		display: inline-block;
+		margin-bottom: 7px;
+		margin-right: 40px;
+		content: '';
+		height: 3px;
+		width: 400px;
+		background-color: c.$light-grey;
+	}
+
+	.title-glr::after {
+		display: inline-block;
+		content: '';
+		margin-bottom: 7px;
+		margin-left: 40px;
+		height: 3px;
+		width: 400px;
+		background-color: c.$light-grey;
+	}
+
+	.container-imgs {
+		display: grid;
+		gap: 10px;
+		grid-template-columns: repeat(3, 1fr);
+		width: 100%;
+		max-height: 750px;
+		max-width: 800px;
+		overflow: hidden;
+
+		.group-2-1 {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			justify-items: space-between; /* Distribui os itens verticalmente */
+			height: 100%;
+
+			img {
+				height: 100%;
+			}
+		}
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.container-imgs > img:last-of-type {
+		grid-column: span 2;
+	}
+}

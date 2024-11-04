@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+@font-face {
+  font-family: "Koulen";
+  src: url("../../../../assets/Koulen.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container-info {
+  background-color: #151515;
+  padding: 60px 40px;
+}
+.container-info div .title-svc {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.container-info div .title-svc::before {
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 40px;
+  content: "";
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info div .title-svc::after {
+  display: inline-block;
+  content: "";
+  margin-bottom: 7px;
+  margin-left: 40px;
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info .container-services {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 60px 0;
+}
+.container-info .container-btn {
+  justify-self: center;
+}
+.container-info .container-btn button {
+  padding: 30px 40px;
+  font-size: 1.3rem;
+}
+.container-info .general-comments {
+  margin-top: 120px;
+}
+.container-info .general-comments .title-avl {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.container-info .general-comments .title-avl::before {
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 40px;
+  content: "";
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info .general-comments .title-avl::after {
+  display: inline-block;
+  content: "";
+  margin-bottom: 7px;
+  margin-left: 40px;
+  height: 3px;
+  width: 400px;
+  background-color: #1f1f1f;
+}
+.container-info .general-comments .container-comments {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-self: center;
+}/*# sourceMappingURL=Info.css.map */

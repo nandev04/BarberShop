@@ -1,0 +1,24 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+@use './variables/mixins' as m;
+
+.container-comment {
+	background-color: c.$light-grey;
+	border: 2px solid c.$yellow-contrast;
+	width: 300px;
+	padding: 20px;
+
+	.name {
+		@include m.phrase-style();
+		font-size: 1rem;
+		font-weight: 500;
+		justify-self: left;
+		margin-bottom: 10px;
+	}
+
+	.comment {
+		font-family: f.$primary-font;
+		color: c.$ice-white;
+		font-size: 0.85rem;
+	}
+}

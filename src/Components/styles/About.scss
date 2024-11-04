@@ -1,30 +1,29 @@
 @use './variables/colors' as c;
 @use './variables/fonts' as f;
-
-@mixin phrase-style {
-	text-align: center;
-	font-family: f.$primary-font;
-	color: white;
-	font-size: 2.5rem;
-	font-weight: 800;
-}
+@use './variables/mixins' as m;
 
 .container-section {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	overflow: hidden;
+	max-width: 100%;
+	min-height: 300px;
 	gap: 50px;
-	padding: 0 40px;
+	padding: 60px 40px;
 	background-color: c.$light-grey;
-	min-height: 350px;
 	justify-content: center;
 	align-content: center;
+
+	.container-animation {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 
 	.container-xp {
 		max-width: 500px;
 		justify-self: center;
+		align-self: center;
 
 		p {
-			@include phrase-style();
+			@include m.phrase-style;
 
 			span {
 				color: c.$yellow-contrast;
@@ -37,9 +36,10 @@
 		justify-items: start;
 		margin-left: 100px;
 		max-width: 600px;
+		padding-right: 5px;
 
 		.sobre-titulo {
-			@include phrase-style();
+			@include m.phrase-style();
 			font-style: italic;
 			font-weight: 800;
 			font-size: 2rem;
@@ -52,7 +52,7 @@
 		.descricao {
 			font-family: f.$primary-font;
 			font-size: 0.9rem;
-			color: white;
+			color: c.$ice-white;
 		}
 	}
 }
