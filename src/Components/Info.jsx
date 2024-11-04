@@ -4,15 +4,43 @@ import FrameSvc from './FrameSvc';
 import ButtonAgende from './ButtonAgende';
 import Gallery from './Gallery';
 
-const Info = ({ aos }) => {
-	const settings = {
-		dots: true,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 3,
-		slidesToScroll: 3,
-	};
+// Carousel-Embla
+import EmblaCarousel from './Carousel/src/js/EmblaCarousel';
+import './Carousel/src/css/embla.css';
 
+const reviewsDetails = [
+	{
+		name: 'Renan A.',
+		comment:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus tempore, sapiente architecto voluptates, sit exercitationem quaerat quas sequi est ab. Nobis voluptatum eum tempora eligendi molestias harum laboriosam optio.',
+	},
+	{
+		name: 'Mariana A.',
+		comment:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus tempore, sapiente architecto voluptates, sit exercitationem quaerat quas sequi est ab. Nobis voluptatum eum tempora eligendi molestias harum laboriosam optio.',
+	},
+	{
+		name: 'Fernanda B.',
+		comment:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus tempore, sapiente architecto voluptates, sit exercitationem quaerat quas sequi est ab. Nobis voluptatum eum tempora eligendi molestias harum laboriosam optio.',
+	},
+	{
+		name: 'Vitória A.',
+		comment:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus tempore, sapiente architecto voluptates, sit exercitationem quaerat quas sequi est ab. Nobis voluptatum eum tempora eligendi molestias harum laboriosam optio.',
+	},
+	{
+		name: 'Felipe B.',
+		comment:
+			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur natus tempore, sapiente architecto voluptates, sit exercitationem quaerat quas sequi est ab. Nobis voluptatum eum tempora eligendi molestias harum laboriosam optio.',
+	},
+];
+
+const OPTIONS = { loop: true };
+
+const SLIDES = reviewsDetails;
+
+const Info = ({ aos }) => {
 	return (
 		<section className="container-info">
 			<div
@@ -61,7 +89,9 @@ const Info = ({ aos }) => {
 						<h2 className="title-avl">Avaliações</h2>
 					</div>
 
-					<div className="container-comments"></div>
+					<div className="container-comments">
+						<EmblaCarousel slides={SLIDES} options={OPTIONS} />
+					</div>
 				</section>
 			</div>
 		</section>

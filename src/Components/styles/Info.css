@@ -81,5 +81,8 @@
   background-color: #1f1f1f;
 }
 .container-info .general-comments .container-comments {
+  display: flex;
+  width: 100%;
+  gap: 20px;
   justify-self: center;
 }/*# sourceMappingURL=Info.css.map */
