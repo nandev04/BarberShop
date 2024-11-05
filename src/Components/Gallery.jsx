@@ -7,6 +7,7 @@ const Gallery = () => {
 			data-aos="fade-right"
 			data-aos-duration="1000"
 			className="container-gallery"
+			id="gallery"
 			data-aos-anchor-placement="top-bottom"
 		>
 			<div>

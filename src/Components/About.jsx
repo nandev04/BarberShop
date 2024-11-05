@@ -3,7 +3,7 @@ import './styles/About.css';
 
 const About = () => {
 	return (
-		<section className="container-section">
+		<section className="container-section" id="about">
 			<div
 				className="container-animation"
 				data-aos="fade-left"
