@@ -43,7 +43,9 @@
   margin: 60px 0;
 }
 .container-info .container-btn {
-  justify-self: center;
+  display: grid;
+  width: 100%;
+  justify-content: center;
 }
 .container-info .container-btn button {
   padding: 30px 40px;

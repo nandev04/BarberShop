@@ -45,7 +45,9 @@
 	}
 
 	.container-btn {
-		justify-self: center;
+		display: grid;
+		width: 100%;
+		justify-content: center;
 		button {
 			padding: 30px 40px;
 			font-size: 1.3rem;
