@@ -5,7 +5,6 @@ import {
 	PrevButton,
 	usePrevNextButtons,
 } from './EmblaCarouselArrowButtons';
-import { DotButton, useDotButton } from './EmblaCarouselDotButton';
 
 const TWEEN_FACTOR_BASE = 0.52;
 
@@ -17,9 +16,6 @@ const EmblaCarousel = (props) => {
 	const [emblaRef, emblaApi] = useEmblaCarousel(options);
 	const tweenFactor = useRef(0);
 	const tweenNodes = useRef([]);
-
-	const { selectedIndex, scrollSnaps, onDotButtonClick } =
-		useDotButton(emblaApi);
 
 	const {
 		prevBtnDisabled,

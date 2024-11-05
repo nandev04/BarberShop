@@ -1,0 +1,43 @@
+@use './variables/colors' as c;
+@use './variables/fonts' as f;
+
+.container-footer {
+	width: 100%;
+	background-color: c.$light-grey;
+	font-family: f.$primary-font;
+	color: c.$ice-white;
+
+	p {
+		display: inline-block;
+	}
+}
+.container-content-footer {
+	display: grid;
+	align-items: center;
+	padding: 50px 40px;
+	justify-content: center;
+
+	.title-footer {
+		font-size: 1.865rem;
+
+		p {
+			color: c.$yellow-contrast;
+		}
+	}
+
+	.social-media {
+		display: flex;
+		margin-top: 10px;
+		gap: 20px;
+		justify-content: center;
+		a {
+			svg {
+				width: 50px;
+				height: auto;
+			}
+			background: none;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}

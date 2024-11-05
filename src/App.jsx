@@ -8,6 +8,7 @@ import React from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './Components/Footer';
 
 function App() {
 	React.useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
 			<Slogan aos={AOS} />
 			<About aos={AOS} />
 			<Info aos={AOS} />
+			<Footer aos={AOS} />
 		</>
 	);
 }
