@@ -32,9 +32,12 @@ header {
 	}
 
 	li {
-		cursor: pointer;
-		font-family: f.$primary-font;
-		color: c.$ice-white;
-		font-size: 0.9rem;
+		a {
+			text-decoration: none;
+			cursor: pointer;
+			font-family: f.$primary-font;
+			color: c.$ice-white;
+			font-size: 0.9rem;
+		}
 	}
 }

@@ -5,7 +5,8 @@
 .container-gallery {
 	display: grid;
 	justify-items: center;
-	margin-top: 120px;
+	margin-top: 60px;
+	padding-top: 60px;
 
 	.title-glr {
 		@include m.phrase-style;

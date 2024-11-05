@@ -8,7 +8,8 @@
 .container-gallery {
   display: grid;
   justify-items: center;
-  margin-top: 120px;
+  margin-top: 60px;
+  padding-top: 60px;
 }
 .container-gallery .title-glr {
   text-align: center;
