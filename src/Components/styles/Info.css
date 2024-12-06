@@ -87,4 +87,16 @@
   width: 100%;
   gap: 20px;
   justify-self: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  .container-info div .title-svc::after,
+  .container-info div .title-svc::before {
+    width: 200px;
+  }
+  .container-info .general-comments .title-avl::after,
+  .container-info .general-comments .title-avl::before {
+    width: 200px;
+  }
 }/*# sourceMappingURL=Info.css.map */

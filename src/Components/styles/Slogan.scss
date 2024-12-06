@@ -49,3 +49,39 @@
 		margin-top: 20px;
 	}
 }
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+	.main-container {
+		.container-animation {
+			display: block;
+
+			.container-img {
+				margin-top: 4rem;
+				max-height: none;
+			}
+
+			.slogan-container {
+				margin-top: 5rem;
+				div {
+					display: flex;
+					flex-direction: column;
+					margin-top: 50px;
+
+					h2 {
+						justify-items: center;
+					}
+
+					.btn {
+						margin: 0 auto;
+						margin-top: 3rem;
+						font-size: 1.4rem;
+						padding: 40px 50px;
+						width: 100%;
+						align-self: flex-end;
+					}
+				}
+			}
+		}
+	}
+}

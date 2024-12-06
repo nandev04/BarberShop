@@ -92,3 +92,23 @@
 		}
 	}
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 500px) {
+	.container-info {
+		div {
+			.title-svc::after,
+			.title-svc::before {
+				width: 200px;
+			}
+		}
+
+		.general-comments {
+			.title-avl::after,
+			.title-avl::before {
+				width: 200px;
+			}
+		}
+	}
+}

@@ -65,4 +65,10 @@
 }
 .container-gallery .container-imgs > img:last-of-type {
   grid-column: span 2;
+}
+
+/* RESPONSIVE */
+.container-gallery .title-glr::after,
+.container-gallery .title-glr::before {
+  width: 200px;
 }/*# sourceMappingURL=Gallery.css.map */
