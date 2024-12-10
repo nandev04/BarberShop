@@ -56,3 +56,46 @@
 		}
 	}
 }
+
+/* RESPONSIVINESS */
+
+@media (max-width: 500px) {
+	.container-section {
+		padding: 100px 80px;
+		.container-animation {
+			grid-template-columns: 1fr;
+		}
+
+		.container-xp {
+			max-width: min-content;
+			p {
+				font-size: 4rem;
+
+				span {
+					font-size: 8rem;
+				}
+			}
+		}
+
+		.container-sobre {
+			display: grid;
+			max-width: 800px;
+			margin: 0 auto;
+			margin-top: 12rem;
+			justify-items: start;
+
+			.sobre-titulo {
+				font-size: 3.4rem;
+			}
+
+			.descricao {
+				font-size: 1.7rem;
+			}
+		}
+	}
+
+	.container-services {
+		flex-direction: column;
+		justify-self: center;
+	}
+}

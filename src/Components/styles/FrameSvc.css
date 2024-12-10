@@ -35,4 +35,19 @@
   margin-top: 15px;
   color: #f5f5f5;
   font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  .conteiner-frame {
+    padding: 30px 35px;
+    width: 540px;
+  }
+  .conteiner-frame div .frame-title {
+    font-size: 2rem;
+  }
+  .conteiner-frame .frame-description {
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=FrameSvc.css.map */

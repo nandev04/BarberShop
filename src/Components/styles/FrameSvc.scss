@@ -35,3 +35,21 @@
 		font-size: 0.9rem;
 	}
 }
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+	.conteiner-frame {
+		padding: 30px 35px;
+		width: 540px;
+
+		div {
+			.frame-title {
+				font-size: 2rem;
+			}
+		}
+		.frame-description {
+			margin-top: 20px;
+			font-size: 1.4rem;
+		}
+	}
+}

@@ -66,3 +66,12 @@
 		grid-column: span 2;
 	}
 }
+
+/* RESPONSIVE */
+
+.container-gallery {
+	.title-glr::after,
+	.title-glr::before {
+		width: 200px;
+	}
+}
