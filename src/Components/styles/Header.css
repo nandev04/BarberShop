@@ -30,8 +30,15 @@ header .containerLogo span {
 header .containerNav {
   display: flex;
   align-items: center;
+}
+header .containerNav ul {
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 45px;
+}
+header .containerNav ul li a:hover {
+  color: #fcb041;
 }
 header .containerNav ul li a {
   text-decoration: none;
@@ -39,4 +46,14 @@ header .containerNav ul li a {
   font-family: "Montserrat", sans-serif;
   color: #f5f5f5;
   font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 500px) {
+  header .containerNav ul li a:hover {
+    color: #f5f5f5;
+  }
+  header .containerNav ul li a {
+    font-size: 1.1rem;
+  }
 }/*# sourceMappingURL=Header.css.map */

@@ -20,7 +20,7 @@ function App() {
 
 	return (
 		<>
-			<Header aos={AOS} />
+			<Header />
 			<Slogan aos={AOS} />
 			<About aos={AOS} />
 			<Info aos={AOS} />
