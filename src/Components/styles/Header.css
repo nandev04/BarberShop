@@ -33,7 +33,7 @@ header .containerNav {
   justify-content: center;
   gap: 45px;
 }
-header li a {
+header .containerNav ul li a {
   text-decoration: none;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;

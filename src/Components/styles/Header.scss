@@ -29,15 +29,17 @@ header {
 		align-items: center;
 		justify-content: center;
 		gap: 45px;
-	}
 
-	li {
-		a {
-			text-decoration: none;
-			cursor: pointer;
-			font-family: f.$primary-font;
-			color: c.$ice-white;
-			font-size: 0.9rem;
+		ul {
+			li {
+				a {
+					text-decoration: none;
+					cursor: pointer;
+					font-family: f.$primary-font;
+					color: c.$ice-white;
+					font-size: 0.9rem;
+				}
+			}
 		}
 	}
 }
