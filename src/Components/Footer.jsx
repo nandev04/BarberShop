@@ -1,6 +1,6 @@
 import React from 'react';
-import WhatsAppIcon from '../../assets/whatsapp.svg?react';
-import InstagramIcon from '../../assets/instagram.svg?react';
+import WhatsAppIcon from '/assets/whatsapp.svg?react';
+import InstagramIcon from '/assets/instagram.svg?react';
 import './styles/Footer.css';
 
 const Footer = () => {

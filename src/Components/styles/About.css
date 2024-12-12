@@ -1,99 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
 @font-face {
-  font-family: "Koulen";
-  src: url("../../../../assets/Koulen.ttf"), format("truetype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Koulen';
+	src: url('/assets/Koulen.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .container-section {
-  overflow: hidden;
-  max-width: 100%;
-  min-height: 300px;
-  gap: 50px;
-  padding: 60px 40px;
-  background-color: #1f1f1f;
-  justify-content: center;
-  align-content: center;
+	overflow: hidden;
+	max-width: 100%;
+	min-height: 300px;
+	gap: 50px;
+	padding: 60px 40px;
+	background-color: #1f1f1f;
+	justify-content: center;
+	align-content: center;
 }
 .container-section .container-animation {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 .container-section .container-xp {
-  max-width: 500px;
-  justify-self: center;
-  align-self: center;
+	max-width: 500px;
+	justify-self: center;
+	align-self: center;
 }
 .container-section .container-xp p {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 800;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 800;
 }
 .container-section .container-xp p span {
-  color: #fcb041;
-  font-size: 5rem;
+	color: #fcb041;
+	font-size: 5rem;
 }
 .container-section .container-sobre {
-  justify-items: start;
-  margin-left: 100px;
-  max-width: 600px;
-  padding-right: 5px;
+	justify-items: start;
+	margin-left: 100px;
+	max-width: 600px;
+	padding-right: 5px;
 }
 .container-section .container-sobre .sobre-titulo {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 800;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 2rem;
-  margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 2.5rem;
+	font-weight: 800;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 2rem;
+	margin-bottom: 20px;
 }
 .container-section .container-sobre .sobre-titulo span {
-  color: #fcb041;
+	color: #fcb041;
 }
 .container-section .container-sobre .descricao {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	color: #f5f5f5;
 }
 
 /* RESPONSIVINESS */
 @media (max-width: 500px) {
-  .container-section {
-    padding: 100px 80px;
-  }
-  .container-section .container-animation {
-    grid-template-columns: 1fr;
-  }
-  .container-section .container-xp {
-    max-width: -moz-min-content;
-    max-width: min-content;
-  }
-  .container-section .container-xp p {
-    font-size: 4rem;
-  }
-  .container-section .container-xp p span {
-    font-size: 8rem;
-  }
-  .container-section .container-sobre {
-    display: grid;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 12rem;
-    justify-items: start;
-  }
-  .container-section .container-sobre .sobre-titulo {
-    font-size: 3.4rem;
-  }
-  .container-section .container-sobre .descricao {
-    font-size: 1.7rem;
-  }
-  .container-services {
-    flex-direction: column;
-    justify-self: center;
-  }
-}/*# sourceMappingURL=About.css.map */
+	.container-section {
+		padding: 100px 80px;
+	}
+	.container-section .container-animation {
+		grid-template-columns: 1fr;
+	}
+	.container-section .container-xp {
+		max-width: -moz-min-content;
+		max-width: min-content;
+	}
+	.container-section .container-xp p {
+		font-size: 4rem;
+	}
+	.container-section .container-xp p span {
+		font-size: 8rem;
+	}
+	.container-section .container-sobre {
+		display: grid;
+		max-width: 800px;
+		margin: 0 auto;
+		margin-top: 12rem;
+		justify-items: start;
+	}
+	.container-section .container-sobre .sobre-titulo {
+		font-size: 3.4rem;
+	}
+	.container-section .container-sobre .descricao {
+		font-size: 1.7rem;
+	}
+	.container-services {
+		flex-direction: column;
+		justify-self: center;
+	}
+} /*# sourceMappingURL=About.css.map */

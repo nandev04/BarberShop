@@ -11,10 +11,7 @@ const Slogan = () => {
 				data-aos-duration="1000"
 			>
 				<div className="container-img">
-					<img
-						src="../../../assets/slogan.jpg"
-						alt="Imagem de um de nossos clientes"
-					/>
+					<img src="/assets/slogan.jpg" alt="Imagem de um de nossos clientes" />
 				</div>
 				<div className="slogan-container">
 					<div>

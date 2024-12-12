@@ -54,28 +54,28 @@ const Info = ({ aos }) => {
 				<div className="container-services">
 					<FrameSvc
 						title={'Corte'}
-						img={'../../assets/corte-tesoura.svg'}
+						img={'/assets/corte-tesoura.svg'}
 						description={
 							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab error necessitatibus totam id nisi, deserunt ex unde natus fugiat, aliquid hic possimus quod quasi. Non doloribus asperiores voluptatibus recusandae?'
 						}
 					/>
 					<FrameSvc
 						title={'Barba'}
-						img={'../../assets/navalha.svg'}
+						img={'/assets/navalha.svg'}
 						description={
 							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab error necessitatibus totam id nisi, deserunt ex unde natus fugiat, aliquid hic possimus quod quasi. Non doloribus asperiores voluptatibus recusandae?'
 						}
 					/>
 					<FrameSvc
 						title={'Corte infantil'}
-						img={'../../assets/crianca.svg'}
+						img={'/assets/crianca.svg'}
 						description={
 							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab error necessitatibus totam id nisi, deserunt ex unde natus fugiat, aliquid hic possimus quod quasi. Non doloribus asperiores voluptatibus recusandae?'
 						}
 					/>
 					<FrameSvc
 						title={'Coloração'}
-						img={'../../assets/pincel.svg'}
+						img={'/assets/pincel.svg'}
 						description={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab error necessitatibus totam id nisi, deserunt ex unde natus fugiat, aliquid hic possimus quod quasi. Non doloribus asperiores voluptatibus recusandae?`}
 					/>
 				</div>

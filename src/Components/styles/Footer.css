@@ -1,44 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
 @font-face {
-  font-family: "Koulen";
-  src: url("../../../../assets/Koulen.ttf"), format("truetype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Koulen';
+	src: url('/assets/Koulen.ttf'), format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .container-footer {
-  width: 100%;
-  background-color: #1f1f1f;
-  font-family: "Montserrat", sans-serif;
-  color: #f5f5f5;
+	width: 100%;
+	background-color: #1f1f1f;
+	font-family: 'Montserrat', sans-serif;
+	color: #f5f5f5;
 }
 .container-footer p {
-  display: inline-block;
+	display: inline-block;
 }
 
 .container-content-footer {
-  display: grid;
-  align-items: center;
-  padding: 50px 40px;
-  justify-content: center;
+	display: grid;
+	align-items: center;
+	padding: 50px 40px;
+	justify-content: center;
 }
 .container-content-footer .title-footer {
-  font-size: 1.865rem;
+	font-size: 1.865rem;
 }
 .container-content-footer .title-footer p {
-  color: #fcb041;
+	color: #fcb041;
 }
 .container-content-footer .social-media {
-  display: flex;
-  margin-top: 10px;
-  gap: 20px;
-  justify-content: center;
+	display: flex;
+	margin-top: 10px;
+	gap: 20px;
+	justify-content: center;
 }
 .container-content-footer .social-media a {
-  background: none;
-  border: none;
-  cursor: pointer;
+	background: none;
+	border: none;
+	cursor: pointer;
 }
 .container-content-footer .social-media a svg {
-  width: 50px;
-  height: auto;
-}/*# sourceMappingURL=Footer.css.map */
+	width: 50px;
+	height: auto;
+} /*# sourceMappingURL=Footer.css.map */
