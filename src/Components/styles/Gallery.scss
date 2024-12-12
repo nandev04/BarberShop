@@ -10,7 +10,6 @@
 
 	.title-glr {
 		@include m.phrase-style;
-
 		font-size: 1.8rem;
 		font-weight: 400;
 		margin-bottom: 60px;
@@ -22,7 +21,8 @@
 		margin-right: 40px;
 		content: '';
 		height: 3px;
-		width: 400px;
+		width: 20vw;
+		max-width: 400px;
 		background-color: c.$light-grey;
 	}
 
@@ -32,7 +32,8 @@
 		margin-bottom: 7px;
 		margin-left: 40px;
 		height: 3px;
-		width: 400px;
+		width: 20vw;
+		max-width: 400px;
 		background-color: c.$light-grey;
 	}
 
@@ -69,9 +70,11 @@
 
 /* RESPONSIVE */
 
-.container-gallery {
-	.title-glr::after,
-	.title-glr::before {
-		width: 200px;
+@media (max-width: 700px) {
+	.container-gallery {
+		.title-glr::after,
+		.title-glr::before {
+			display: none;
+		}
 	}
 }

@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap");
 @font-face {
-	font-family: 'Koulen';
-	src: url('/assets/Koulen.ttf'), format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Koulen";
+  src: url("/assets/Koulen.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .main-container {
-	background-color: #151515;
-	padding: 0 40px;
-	width: 100%;
-	gap: 50px;
-	min-height: 500px;
-	padding-bottom: 40px;
-	overflow: hidden;
+  background-color: #151515;
+  padding: 0 40px;
+  width: 100%;
+  gap: 50px;
+  min-height: 500px;
+  padding-bottom: 40px;
+  overflow: hidden;
 }
 .main-container .container-animation {
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .container-img {
-	justify-self: center;
-	line-height: 0;
-	max-width: 600px;
-	max-height: 200px;
+  justify-self: center;
+  line-height: 0;
+  max-width: 600px;
+  max-height: 200px;
 }
 .container-img img {
-	width: 100%;
-	box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
+  width: 100%;
+  box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.3), -18px 18px 0px #fcb041;
 }
 
 .slogan-container {
-	grid-column: 2/2;
-	justify-items: center;
+  grid-column: 2/2;
+  justify-items: center;
 }
 .slogan-container h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3.7rem;
-	max-width: 500px;
-	color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.7rem;
+  max-width: 500px;
+  color: white;
 }
 .slogan-container h2 .word-contrast {
-	display: inline-block;
-	color: #fcb041;
+  display: inline-block;
+  color: #fcb041;
 }
 .slogan-container button {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* RESPONSIVE */
-@media (max-width: 500px) {
-	.main-container .container-animation {
-		display: block;
-	}
-	.main-container .container-animation .container-img {
-		margin-top: 4rem;
-		max-height: none;
-	}
-	.main-container .container-animation .slogan-container {
-		margin-top: 5rem;
-	}
-	.main-container .container-animation .slogan-container div {
-		display: flex;
-		flex-direction: column;
-		margin-top: 50px;
-	}
-	.main-container .container-animation .slogan-container div h2 {
-		justify-items: center;
-	}
-	.main-container .container-animation .slogan-container div .btn {
-		margin: 0 auto;
-		margin-top: 3rem;
-		font-size: 1.4rem;
-		padding: 40px 50px;
-		width: 100%;
-		align-self: flex-end;
-	}
-} /*# sourceMappingURL=Slogan.css.map */
+@media (max-width: 1200px) {
+  .main-container .container-animation {
+    display: block;
+  }
+  .main-container .container-animation .container-img {
+    margin-top: 4rem;
+    max-height: none;
+  }
+  .main-container .container-animation .slogan-container {
+    margin-top: 5rem;
+  }
+  .main-container .container-animation .slogan-container div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .main-container .container-animation .slogan-container div h2 {
+    justify-items: center;
+  }
+  .main-container .container-animation .slogan-container div .btn {
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding: 40px 50px;
+    width: 100%;
+    align-self: flex-end;
+  }
+}/*# sourceMappingURL=Slogan.css.map */
