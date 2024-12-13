@@ -101,7 +101,7 @@
 
 /* RESPONSIVE */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	.container-info {
 		div {
 			.title-svc::after,
@@ -114,6 +114,10 @@
 			.title-avl::after,
 			.title-avl::before {
 				display: none;
+			}
+
+			.container-comments {
+				width: 100vw;
 			}
 		}
 	}
